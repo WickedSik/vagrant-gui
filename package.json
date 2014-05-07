@@ -1,0 +1,20 @@
+{
+    "name":"vagrant-gui",
+    "version": "0.0.1",
+    "repository": "gitlab@rd.jpd.es:jpdokter/vagrant-gui.git",
+    "description": "Vagrant GUI",
+    "keywords": [],
+    "main": "index.html",
+    "js-flags": "--harmony",
+    "window": {
+        "title": "Vagrant GUI",
+        "toolbar": false,
+        "frame": true,
+        "width": 300,
+        "height": 500
+    },
+    "dependencies": {
+        "vagrant": "~0.0.1",
+        "component": "~0.19.7"
+    }
+}
