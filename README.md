@@ -1,13 +1,13 @@
-
 # vagrant-gui
 
   Vagrant GUI in Node Webkit
 
 ## Installation
 
-  Install with [component(1)](http://component.io):
-
-    $ component install WickedSik/vagrant-gui
+  1. Install node-webkit
+  2. Clone repository
+  3. ...?
+  4. Profit!
 
 ## API
 
