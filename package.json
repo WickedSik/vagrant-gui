@@ -12,10 +12,12 @@
         "toolbar": true,
         "frame": true,
         "width": 300,
-        "height": 500
+        "height": 500,
+        "resize": false
     },
     "dependencies": {
         "which": "*",
-        "string": "*"
+        "string": "*",
+        "jade": "*"
     }
 }

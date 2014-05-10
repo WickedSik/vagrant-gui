@@ -1,0 +1,19 @@
+li.list-group-item
+    div.btn-group.btn-group-sm.pull-right
+        button.start.btn.btn-success(type="button", disabled="disabled")
+            span.glyphicon.glyphicon-play
+        
+        button.pause.btn.btn-warning(type="button", disabled="disabled")
+            span.glyphicon.glyphicon-pause
+
+        button.stop.btn.btn-danger(type="button", disabled="disabled")
+            span.glyphicon.glyphicon-stop
+
+    h4= server.title
+    p
+        small
+            a(href="")
+                span.glyphicon.glyphicon-trash
+                |  remove server
+
+    div.clearfix
