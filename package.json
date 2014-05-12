@@ -9,11 +9,13 @@
     "single-instance": true,
     "window": {
         "title": "Vagrant GUI",
-        "toolbar": true,
+        "toolbar": false,
         "frame": true,
         "width": 300,
         "height": 500,
-        "resize": false
+        "resizable": false,
+        "fullscreen": false,
+        "show_in_taskbar": false
     },
     "dependencies": {
         "which": "*",
